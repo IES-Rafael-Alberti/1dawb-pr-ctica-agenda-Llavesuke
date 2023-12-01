@@ -135,7 +135,7 @@ def pedir_opcion():
 
     Returns: 
         -1 (int): Valor que devuelve si la opción no es válida.
-        opcion (int): La opción elegida por el usuario.
+        opcion_entero (int): La opción elegida por el usuario.
     """
     opcion = input('\n>> Seleccione una opción:')
     try:
